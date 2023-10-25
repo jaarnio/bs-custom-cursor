@@ -3,12 +3,10 @@ sub Main()
 	r = CreateObject("roRectangle", 0, 0, 1920, 1080)
 	t = CreateObject("roTouchScreen")
 	t.SetPort(msgPort)
-	t.AddRectangleRegion(0,0,1920,1080,1)
+	t.AddRectangleRegion(0, 0, 1920, 1080, 1)
 	t.EnableCursor(true)
-	t.SetCursorBitmap("cursor.png", 15,0)
+	t.SetCursorBitmap("cursor.png", 15, 0)
 	config = {
-		' change URL to be your VS Code live server address
-		'url: "http://192.168.1.154:8080/index.html",
 		url: "file:///index.html",
 		javascript_enabled: true,
 		nodejs_enabled: true,
