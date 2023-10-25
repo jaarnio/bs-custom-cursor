@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(0deg, #fd8476, #311c6b);
+  background-color: #311c6b;
+  display: grid;
+  height: 100vh;
+  margin: 0px;
+  cursor: url('cursor.png'), auto;
+  position-content: center;
+  place-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+.main {
+  width: 200px;
+  height: 40px;
+}
